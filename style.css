@@ -34,6 +34,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  box-shadow: 5px 8px hsl(217, 19%, 35%);
 }
 
 .profile {
