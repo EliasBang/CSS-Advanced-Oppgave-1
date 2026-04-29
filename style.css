@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  align-items: center;
+  background-color: hsl(214, 17%, 92%);
+  display: flex;
+  height: 94svh;
+  justify-content: center;
+  width: 93svw;
+}
+
+h2 {
+  z-index: 1;
+}
+
+p {
+  color: hsl(0, 0%, 81%);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 65px 1fr;
+  grid-template-rows: 50% 50%;
+}
+
+.profile img {
+  border-radius: 50%;
+  grid-area: 1 / 1 / span 2 / span 1;
+}
+
+.name {
+  font-weight: 600;
+}
+
+#daniel-clifford {
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 10px;
+  color: hsl(260, 100%, 95%);
+  grid-area: 1 / 1 / span 1 / span 2;
+  padding: 30px;
+  position: relative;
+}
+
+#jonathan-walters {
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 10px;
+  color: hsl(214, 17%, 92%);
+  grid-area: jonathan-walters;
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+  padding: 30px;
+}
+
+#jeanette-harmon {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  grid-area: jeanette-harmon;
+  grid-area: 2 / 1 / span 1 / span 1;
+  padding: 30px;
+}
+
+#jeanette-harmon p {
+  color: hsl(224, 10%, 45%);
+}
+
+#kira-whittle {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  grid-area: 1 / 4 / span 2 / span 1;
+  padding: 30px;
+}
+
+#kira-whittle p {
+  color: hsl(224, 10%, 45%);
+}
+
+#patric-abrams {
+  background-color: hsl(219, 29%, 14%);
+  border-radius: 10px;
+  color: hsl(0, 0%, 100%);
+  grid-area: 2 / 2 / span 1 / span 2;
+  padding: 30px;
+}
+
+#quotation-mark {
+  height: 43%;
+  position: absolute;
+  right: 15%;
+  top: 0%;
+}
+
+#testimonials {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  height: 75%;
+  width: 72%;
+}
