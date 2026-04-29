@@ -109,7 +109,18 @@ p {
 #testimonials {
   display: grid;
   gap: 30px;
-  grid-template-columns: 25% 25% 25% 25%;
   height: 75%;
   width: 72%;
+}
+
+@media orientation and (landscape) {
+  #testimonials {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (portrait) {
+  #testimonials {
+    grid-template-columns: 1fr;
+  }
 }
